@@ -3,8 +3,14 @@ from django.shortcuts import render
 def home(request):
     return render(request,"index.html")
 
-def product(request):
-    return render(request,"products.html")
+def menu(request):
+    return render(request,"menu.html")
 
-def contact(request):
-    return render(request,"contactus.html")
+def about(request):
+    return render(request,"about.html")
+
+def book(request):
+    return render(request,"book.html")
+
+def sabtesefaresh(request):
+    return render(request,"sabtesefaresh.html")
